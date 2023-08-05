@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Tenemos que definir el action y method -->
+    <form id="form_1" action="../my-handler.py" method="post">
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="nombre" placeholder="Marcus Miller" pattern="^[A-Za-z]+$" required /><br>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="correo" placeholder="example@gmail.com" required />
+        <br>
+        <button type="submit">Send Data</button>
+    </form>
+</body>
+</html>
